@@ -1,0 +1,152 @@
+.content-block {
+    background-color: lightgray;
+    border: solid black;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.categories-line {
+    background-color: lightgray;
+    border: solid black;
+    border-radius: 25px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-line {
+    background-color: gray;
+    border: solid black;
+    border-radius: 25px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-box {
+    background-color: gray;
+    border: solid black;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.title {
+    padding: 5px;
+    border: solid black;
+    border-radius: 25px;
+    font-size: xx-large;
+}
+
+.display-flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-block {
+    background-color: gray;
+    border: solid black;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.button {
+    background-color: gray;
+    border-radius: 25px;
+    border: solid black;
+    padding: 5px;
+}
+
+/* .input-line {
+    display: flex;
+    justify-content: center;
+} */
+
+/* .general-block {
+    background-color: lightgray;
+    border: solid black;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.top-panel {
+    background-color: gray;
+    border: solid black;
+    border-radius: 25px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-element {
+    background-color: lightgray;
+    border: solid black;
+    border-radius: 25px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titles-block {
+    display: flex;
+    justify-content: space-between;
+    border: solid black;
+    border-radius: 25px;
+    padding: 5px;
+    width: calc(100% - 60px);
+}
+
+.button {
+    border-radius: 12.5px;
+    border: solid black;
+}
+
+.enabled {
+    background-color: green;
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+}
+
+.title-block {
+    padding: 5px;
+    border: solid black;
+    border-radius: 25px;
+    height: 20px;
+    width: 20%;
+}
+
+#name {
+    width: calc(100% - 45px);
+}
+
+#created {
+    width: calc(100% - 55px);
+}
+
+#category {
+    width: calc(100% - 65px);
+}
+
+#dates {
+    width: calc(100% - 45px);
+}
+
+#content {
+    width: 99%;
+    height: 100px;
+}
+
+.button2 {
+    text-align: center;
+}
+
+.content-to-center {
+    justify-content: center;
+} */

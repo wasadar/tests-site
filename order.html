@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About product\order product</title>
+    <link href="public/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="content-block">
+        <div class="content-line" id="top-panel"></div>
+        <div class="content-box">
+            <div class="display-flex-center">
+                <div class="input-block">
+                    <div class="display-flex"><div>Name:</div><input type="text" id="product" disabled></div>
+                    <div class="display-flex">Description:<textarea id="product-description" disabled></textarea></div>
+                    <div class="display-flex"><div>Price:</div><input type="number" id="price" disabled></div>
+                </div>
+            </div>
+            <div class="display-flex-center">
+                <div class="input-block">
+                    <div class="display-flex"><div>Email:</div><input type="email" id="email"></div>
+                    <div class="display-flex">Description:<textarea id="order-description"></textarea></div>
+                </div>
+            </div>
+            <div class="display-flex-center">
+                <div class="content-line">
+                    <div class="display-flex"><div class="button" id="send">Send</div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="module" src="src/order-page-script.js"></script>
+</body>
+</html>
