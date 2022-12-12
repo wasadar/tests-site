@@ -44,8 +44,6 @@ function validateOrder(products,data) {
     let result = false;
     for (product in products){
         if (products[product].name === data.product){
-            data.price = products[product].price;
-            data.seller = products[product].seller;
             result = true;
         }
     }
