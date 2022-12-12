@@ -8,7 +8,9 @@ function initIndexPage() {
     }
     else {
         initTopPanel();
-        axios.get("http://localhost:3000/api/orders").then(function (response){
+        let name = getCookie("name");
+    let password = getCookie("password");
+        axios.post("http://localhost:3000/api/orders",{name: name, password: password}).then(function (response){
             let order;
             let index;
             for (index in response.data){
